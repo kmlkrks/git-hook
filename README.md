@@ -1,12 +1,6 @@
 #Git Hook
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
-
+[![Build Status](https://img.shields.io/travis/kmlkrks/git-hook/master.svg?style=flat)](https://travis-ci.org/kmlkrks/git-hook)
 
 ## Install
 ``` bash
