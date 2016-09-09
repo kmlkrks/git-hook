@@ -1,0 +1,35 @@
+{
+  "name": "kmlkrks/git-hook",
+  "description": "GitHook for code standard check.",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "git",
+    "git-hook",
+    "pre-commit",
+    "standards"
+  ],
+  "authors": [
+    {
+      "name": "Kemal KARAKAŞ"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "squizlabs/php_codesniffer": "@stable",
+    "friendsofphp/php-cs-fixer": "@stable",
+    "symfony/console": "@stable",
+    "symfony/process": "@stable",
+    "phpunit/phpunit": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "GitHook\\": "src//GitHook//"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GitHook\\Tests\\": "tests//GitHook//Tests//"
+    }
+  }
+}
