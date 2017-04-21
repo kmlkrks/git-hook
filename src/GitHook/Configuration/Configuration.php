@@ -12,6 +12,7 @@
 namespace GitHook\Configuration;
 
 use GitHook\Rule\PHPLint;
+use GitHook\Rule\PHPUnit;
 use GitHook\Rule\VarDump;
 
 /**
@@ -32,7 +33,8 @@ class Configuration
     {
         return [
             new VarDump(),
-            new PHPLint()
+            new PHPLint(),
+            new PHPUnit()
         ];
     }
 }
